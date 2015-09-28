@@ -1,0 +1,45 @@
+[
+    {
+        "name": "vimeo/vimeo-api",
+        "version": "1.2.3",
+        "version_normalized": "1.2.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/vimeo/vimeo.php.git",
+            "reference": "e48b19db7febe8431c5e8c609ea9ffe61e1b9e3d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/vimeo/vimeo.php/zipball/e48b19db7febe8431c5e8c609ea9ffe61e1b9e3d",
+            "reference": "e48b19db7febe8431c5e8c609ea9ffe61e1b9e3d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-06-02 21:55:45",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Vimeo\\": "src/Vimeo"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Vimeo",
+                "homepage": "http://vimeo.com"
+            }
+        ],
+        "description": "Official PHP library for the Vimeo API.",
+        "homepage": "https://github.com/vimeo/vimeo.php",
+        "keywords": [
+            "video",
+            "vimeo"
+        ]
+    }
+]
